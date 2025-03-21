@@ -33,9 +33,10 @@ import java.util.Properties;
 /**
  * This {@link HttpFunction} sends a welcome email to the student.
  * <p>
- * This class expects some environmental variables. Namely, they are:
+ * This class expects two environmental variables. Namely, they are:
  * <ul>
- *     <li>{@code GITHUB_OAUTH}, the GitHub personal access token of the organization.</li>
+ *     <li>{@code GAPI_APPLICATION_NAME}, the Google Cloud application name.</li>
+ *     <li>{@code GAPI_EMAIL}, the email to use for sending the email.</li>
  * </ul>
  */
 public class NYSDEmailFunction implements HttpFunction {
