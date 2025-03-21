@@ -37,6 +37,9 @@ import java.util.Properties;
  * <ul>
  *     <li>{@code GAPI_APPLICATION_NAME}, the Google Cloud application name.</li>
  *     <li>{@code GAPI_EMAIL}, the email to use for sending the email.</li>
+ *     <li>{@code GAPI_CLIENT_ID}, the email account's Google client ID</li>
+ *     <li>{@code GAPI_CLIENT_SECRET}, the email account's Google client secret</li>
+ *     <li>{@code GAPI_REFRESH_TOKEN}, the email account's Google refresh token</li>
  * </ul>
  */
 public class NYSDEmailFunction implements HttpFunction {
